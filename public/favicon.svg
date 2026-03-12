@@ -1,0 +1,20 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="32" cy="32" r="32" fill="#224C87"/>
+  
+  <!-- Growth Chart Icon -->
+  <path d="M16 44 L22 38 L28 42 L34 32 L40 36 L46 24" stroke="#3FB68B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Upward Arrow -->
+  <path d="M46 24 L46 30 M46 24 L40 24" stroke="#3FB68B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Rupee Symbol -->
+  <path d="M18 14 L26 14 M18 18 L26 18 M18 14 L18 22 C18 24 20 26 22 26 L26 26" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Dots for data points -->
+  <circle cx="22" cy="38" r="2" fill="#3FB68B"/>
+  <circle cx="28" cy="42" r="2" fill="#3FB68B"/>
+  <circle cx="34" cy="32" r="2" fill="#3FB68B"/>
+  <circle cx="40" cy="36" r="2" fill="#3FB68B"/>
+  <circle cx="46" cy="24" r="2" fill="#3FB68B"/>
+</svg>

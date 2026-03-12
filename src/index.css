@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 215 30% 18%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 30% 18%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 30% 18%;
+
+    --primary: 214 60% 33%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 210 20% 96%;
+    --secondary-foreground: 215 30% 18%;
+
+    --muted: 210 20% 96%;
+    --muted-foreground: 0 0% 57%;
+
+    --accent: 2 70% 53%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 2 70% 53%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 210 20% 90%;
+    --input: 210 20% 90%;
+    --ring: 214 60% 33%;
+
+    --radius: 0.75rem;
+
+    --surface: 210 25% 97%;
+    --surface-foreground: 215 30% 18%;
+
+    --success: 152 55% 42%;
+    --success-foreground: 0 0% 100%;
+
+    --chart-invested: 214 60% 33%;
+    --chart-returns: 152 55% 42%;
+
+    --shadow-soft: 0 2px 16px -2px hsl(214 60% 33% / 0.08);
+    --shadow-card: 0 4px 24px -4px hsl(214 60% 33% / 0.10);
+    --shadow-elevated: 0 8px 32px -6px hsl(214 60% 33% / 0.14);
+
+    --font-heading: 'Montserrat', system-ui, sans-serif;
+    --font-body: Verdana, Arial, sans-serif;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
