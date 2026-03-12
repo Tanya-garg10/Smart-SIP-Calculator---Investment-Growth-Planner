@@ -2,8 +2,6 @@
 
 A comprehensive, feature-rich SIP (Systematic Investment Plan) calculator designed for investor education. This tool helps users understand potential investment outcomes with interactive visualizations, goal planning, and advanced scenarios.
 
-![SIP Calculator](public/placeholder.svg)
-
 ## ✨ Features
 
 ### 🎯 Core Calculator Features
@@ -146,7 +144,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Built with [shadcn/ui](https://ui.shadcn.com/)
 - Charts powered by [Recharts](https://recharts.org/)
 - Icons from [Lucide](https://lucide.dev/)
-
----
 
 **Note**: This is an educational tool. Always consult with qualified financial advisors before making investment decisions.
