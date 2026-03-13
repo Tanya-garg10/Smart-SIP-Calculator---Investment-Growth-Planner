@@ -2,6 +2,9 @@
 
 A comprehensive, feature-rich SIP (Systematic Investment Plan) calculator designed for investor education. This tool helps users understand potential investment outcomes with interactive visualizations, goal planning, and advanced scenarios.
 
+# Video Demo of Working Project: 
+https://drive.google.com/file/d/1QAU8JiRnGbYInI8YIwyEfU0Xs3SdbVJs/view?usp=drive_link 
+
 ## ✨ Features
 
 ### 🎯 Core Calculator Features
